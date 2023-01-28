@@ -4,7 +4,7 @@
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    
+    background-color: blanchedalmond;
 }
 
 header {
@@ -13,14 +13,24 @@ header {
     /* align-items: center; */
     background-color: darkseagreen;
     margin-bottom: 2%;
-    padding: 2% 1%;
+    padding: 1% 1%;
+    text-transform: uppercase;
 }
 
+/* Headline Format */
 h1 {
     font-size: 400%;
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    text-transform: capitalize;
-    
+    font-family:'Times New Roman', Times, serif;
+}
+
+h2 {
+    font-size: 300%;
+    font-family:'Times New Roman', Times, serif;
+    width: 40%;
+}
+
+p {
+    font-size: 90%;
 }
 
 /* Navigation Format */
@@ -28,7 +38,7 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     font-size: 160%;
-    font-weight: 200;
+    font-weight: 550;
 }
 
 nav li{
@@ -41,15 +51,21 @@ nav a{
     color: brown;
 }
 
-/* Class Selectors */
+/* About Format */
 #about {
-    height: 800px;
+    display: flex;
+    margin: 2%;
+}
+
+#about img {
+    width: 300px;
+    height: 250px;
 }
 
 #work {
-    height: 800px;
+    height: 300px;
 }
 
 #contact {
-    height: 800px;
+    height: 300px;
 }
