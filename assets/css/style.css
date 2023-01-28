@@ -1,0 +1,53 @@
+*{
+    color: brown;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    background-color: darkseagreen;
+    margin-bottom: 2%;
+    padding: 2% 1%;
+}
+
+h1 {
+    font-size: 400%;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+/* Navigation Format */
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 160%;
+}
+
+nav li{
+    padding: 1%;
+    margin: 5%;
+}
+
+nav a{
+    border-bottom: 3px solid brown;
+    color: brown;
+}
+
+/* Class Selectors */
+#about {
+    height: 800px;
+}
+
+#work {
+    height: 800px;
+}
+
+#contact {
+    height: 800px;
+}
