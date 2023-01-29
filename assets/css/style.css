@@ -26,14 +26,15 @@ h1 {
 h2 {
     font-size: 300%;
     font-family:'Times New Roman', Times, serif;
-    width: 40%;
+    width: 15%;
 }
 
 p {
-    font-size: 90%;
+    font-size: 125%;
+    padding: 0% 2%;
 }
 
-/* Navigation Format */
+/* Navigation Styling */
 nav ul{
     display: flex;
     justify-content: flex-end;
@@ -51,15 +52,22 @@ nav a{
     color: brown;
 }
 
-/* About Format */
 #about {
     display: flex;
-    margin: 2%;
+    margin: 1%;
 }
 
+/* Content Styling */
+.content {
+    display: flex;
+    border-left: 5px solid darkseagreen;
+    padding-left: 2%;
+    width: 100%;
+}
+
+/* Id Selectors in Main */
 #about img {
-    width: 300px;
-    height: 250px;
+    width: 30%
 }
 
 #work {
@@ -67,5 +75,17 @@ nav a{
 }
 
 #contact {
+    display: flex;
     height: 300px;
+    border-bottom: 3px solid brown;
+    color: brown;
+}
+
+#contact ul {
+    display: flex;
+    font-size: 160%;
+    width: 55%;
+    
+    
+
 }
