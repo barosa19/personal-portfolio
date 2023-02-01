@@ -10,14 +10,13 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    /* align-items: center; */
     background-color: darkseagreen;
     margin-bottom: 2%;
     padding: 1% 1%;
     text-transform: uppercase;
 }
 
-/* Headline Format */
+/* Heading Format */
 h1 {
     font-size: 400%;
     font-family:'Times New Roman', Times, serif;
@@ -44,7 +43,7 @@ nav ul{
 
 nav li{
     padding: 1%;
-    margin: 5%;
+    margin: .6em;
 }
 
 nav a{
@@ -67,8 +66,11 @@ nav a{
 }
 
 #about img {
-    width: 30%
+/*  ? can I use flex to avoid stretching */
+    width: 30vh
 }
+
+
 
 /* Work Styling */
 .info {
@@ -117,8 +119,6 @@ nav a{
     position: relative;
     width: 40%;
     margin: 1% 2%;
-
-    
 }
 
 .projects a{
@@ -133,6 +133,7 @@ nav a{
 #contact {
     display: flex;
     color: brown;
+    background-color: darkseagreen;
     padding-bottom: 3%;
 }
 
@@ -148,18 +149,45 @@ nav a{
     text-decoration: underline;
 }
 
-/* @media only screen and (max-width: 993px) {
+@media only screen and (max-width: 1280px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        justify-content: center;
+    }
     .content {
+        flex-direction: column;
         display: block;
         border-left: 0px;
-
+        text-align: center;
     }
-    #about {
+    .flex-info {
         display: block;
+        border-left: 0px;
+    }
+    .info {
+        display: block;
+        border-left: 0px;
     }
 
-    #about h2 {
+    h2 {
         width: 100%;
         justify-content: center;
     }
-} */
+
+    .content ul {
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+}
