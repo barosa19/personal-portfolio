@@ -1,16 +1,23 @@
+:root {
+    --bkg:rgb(110, 90, 59);
+    --green: #014421;
+    --red: #c0bda5;
+
+}
+
 *{
-    color: brown;
+    color: var(--red);
 }
 
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: blanchedalmond;
+    background-color: var(--bkg);
 }
 
 header {
     display: flex;
     justify-content: space-between;
-    background-color: darkseagreen;
+    background-color: var(--green);
     margin-bottom: 2%;
     padding: 1% 1%;
     text-transform: uppercase;
@@ -23,6 +30,7 @@ h1 {
 }
 
 h2 {
+    /* ? I want my headers to adjust in size */
     font-size: 300%;
     font-family:'Times New Roman', Times, serif;
     width: 17%;
@@ -47,20 +55,20 @@ nav li{
 }
 
 nav a{
-    border-bottom: 3px solid brown;
-    color: brown;
+    border-bottom: 3px solid var(--red);
+    color: var(--red);
 }
 
 /* Content Styling */
 .content {
     display: flex;
-    margin: 1%;
+    margin: 4% 2% 6% 2%;
 }
 
 /* About Styling */
 .flex-info {
     display: flex;
-    border-left: 5px solid darkseagreen;
+    border-left: 5px solid var(--green);
     padding-left: 2%;
     width: 100%;
 }
@@ -74,31 +82,33 @@ nav a{
 
 /* Work Styling */
 .info {
-    border-left: 5px solid darkseagreen;
+    border-left: 5px solid var(--green);
     padding-left: 2%;
     width: 100%;
     text-align: center;
 
 }
 
+/* ? Matching image sizes */
 /* Large Image */
 #large-image {
     position: relative;
-    
-}
-#large-image a {
-    background-color: darkseagreen;
-    padding: 1% 6% 1% .5%;
-    font-size: 160%;
 }
 
-#large-image a{
+#large-image a {
+    background-color: var(--green);
+    color: var(--red);
+    font-weight: 600;
+    padding: 1% 5% 1% .5%;
+    font-size: 160%;
     position: absolute;
-    bottom: 15%
+    left:20%;
+    bottom: 15%;
 }
 
 #large-image img {
-    width: 80%;
+    width: 60%;
+    border: 4px solid var(--red);
 }
 
 /* Small Image */
@@ -111,12 +121,16 @@ nav a{
 
 #smaller-images img {
     width: 96%;
+    border: 4px solid var(--red);
     
 }
 
 /* Projecs */
 .projects {
     position: relative;
+    text-transform: uppercase;
+    font-size: 130%;
+    font-weight: 545;
     width: 40%;
     margin: 1% 2%;
 }
@@ -124,7 +138,8 @@ nav a{
 .projects a{
     position: absolute;
     bottom: 15%;
-    background-color: darkseagreen;
+    background-color: var(--green);
+    color: (var(--red));
     padding: 1% 3% 1% .5%;
     font-size: 120%;
 }
@@ -132,8 +147,8 @@ nav a{
 /* Contact Styling */
 #contact {
     display: flex;
-    color: brown;
-    background-color: darkseagreen;
+    color: var(--red);
+    background-color: var(--green);
     padding-bottom: 3%;
 }
 
