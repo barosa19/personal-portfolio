@@ -11,17 +11,14 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.
+No installation is required for this application. To visit the the webpage open your default browser and go to: https://barosa19.github.io/horiseon/. To get to the development environment go to: https://github.com/barosa19/horiseon.git.
 
 ## Usage
 
 Provide instructions and examples for use. Include screenshots as needed.
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative filepath, add it to your README using the following syntax:
+![screenshot](https://user-images.githubusercontent.com/122834927/216739148-175b2274-53ec-41f4-b405-c70b1ecd0dba.PNG)
 
-    ```md
-    ![alt text](assets/images/screenshot.png)
-    ```
 
 ## Credits
 N/A
