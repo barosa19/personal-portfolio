@@ -11,7 +11,7 @@ Provide a short description explaining the what, why, and how of your project. U
 
 ## Installation
 
-No installation is required for this application. To visit the the webpage open your default browser and go to: https://barosa19.github.io/horiseon/. To get to the development environment go to: https://github.com/barosa19/horiseon.git.
+No installation is required for this application. To visit the the webpage open your default browser and go to: https://barosa19.github.io/horiseon/ . To get to the development environment go to: https://github.com/barosa19/horiseon.git .
 
 ## Usage
 
